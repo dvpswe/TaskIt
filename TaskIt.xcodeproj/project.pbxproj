@@ -14,6 +14,11 @@
 		FD7D646D1BC0222500F86C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7D646B1BC0222500F86C80 /* LaunchScreen.storyboard */; };
 		FD7D64781BC0222500F86C80 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64771BC0222500F86C80 /* TaskItTests.swift */; };
 		FD7D64831BC0222500F86C80 /* TaskItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64821BC0222500F86C80 /* TaskItUITests.swift */; };
+		FD7D64951BC1609A00F86C80 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64941BC1609A00F86C80 /* TaskCell.swift */; settings = {ASSET_TAGS = (); }; };
+		FD7D64971BC4780100F86C80 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64961BC4780100F86C80 /* TaskModel.swift */; settings = {ASSET_TAGS = (); }; };
+		FD7D649B1BC480BE00F86C80 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D649A1BC480BE00F86C80 /* TaskDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FD7D649D1BC4955800F86C80 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D649C1BC4955800F86C80 /* Date.swift */; settings = {ASSET_TAGS = (); }; };
+		FD7D649F1BC57B7700F86C80 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D649E1BC57B7700F86C80 /* AddTaskViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FD7D647E1BC0222500F86C80 /* TaskItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7D64821BC0222500F86C80 /* TaskItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItUITests.swift; sourceTree = "<group>"; };
 		FD7D64841BC0222500F86C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7D64941BC1609A00F86C80 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		FD7D64961BC4780100F86C80 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		FD7D649A1BC480BE00F86C80 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		FD7D649C1BC4955800F86C80 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FD7D649E1BC57B7700F86C80 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				FD7D64621BC0222500F86C80 /* AppDelegate.swift */,
 				FD7D64641BC0222500F86C80 /* ViewController.swift */,
+				FD7D649A1BC480BE00F86C80 /* TaskDetailViewController.swift */,
+				FD7D649E1BC57B7700F86C80 /* AddTaskViewController.swift */,
+				FD7D64961BC4780100F86C80 /* TaskModel.swift */,
+				FD7D649C1BC4955800F86C80 /* Date.swift */,
+				FD7D64941BC1609A00F86C80 /* TaskCell.swift */,
 				FD7D64661BC0222500F86C80 /* Main.storyboard */,
 				FD7D64691BC0222500F86C80 /* Assets.xcassets */,
 				FD7D646B1BC0222500F86C80 /* LaunchScreen.storyboard */,
@@ -255,8 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7D64951BC1609A00F86C80 /* TaskCell.swift in Sources */,
+				FD7D649D1BC4955800F86C80 /* Date.swift in Sources */,
 				FD7D64651BC0222500F86C80 /* ViewController.swift in Sources */,
+				FD7D64971BC4780100F86C80 /* TaskModel.swift in Sources */,
 				FD7D64631BC0222500F86C80 /* AppDelegate.swift in Sources */,
+				FD7D649B1BC480BE00F86C80 /* TaskDetailViewController.swift in Sources */,
+				FD7D649F1BC57B7700F86C80 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
